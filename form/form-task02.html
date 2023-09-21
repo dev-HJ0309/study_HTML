@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+#body {
+  margin: 0;
+  padding: auto;
+  font-family: Noto Sans KR,Malgun Gothic,-apple-system,Segoe UI,Roboto,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #323232;
+  text-align: left;
+  background-color: #fff;
+}
+
+</style>
+<body style="width: 600px; margin: auto;">
+  <div id="app" style="width: 400px;">
+    <div></div>
+    <header style=>
+      <div>
+        <section>    
+          <div style="width: 50%; float: left;">
+              <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIvPgogICAgICAgIDxwYXRoIGQ9Ik00LjUgNmgxNW0tMTUgNmgxNW0tMTUgNmgxNSIgc3Ryb2tlPSIjMkQyRDJEIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgICA8L2c+Cjwvc3ZnPgo=" 
+              alt="네비게이션 메뉴 아이콘">
+              <a href="/?from=logo">
+              <img src="https://assets.cdn.soomgo.com/icons/icon-navi-logo.svg"
+               alt="숨고 로고">
+              </a>
+          </div>
+          <div style="padding: 0;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      flex: 0 0 33.33333%;
+                      max-width: 33.33333%;"></div>
+          <div style="width: 50%; float: left;">
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIvPgogICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQgNCkiIHN0cm9rZT0iIzJEMkQyRCIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogICAgICAgICAgICA8Y2lyY2xlIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGN4PSI2LjUiIGN5PSI2LjUiIHI9IjYuNSIvPgogICAgICAgICAgICA8cGF0aCBzdHJva2UtbGluZWNhcD0icm91bmQiIGQ9Im0xMS41IDExLjUgNSA1Ii8+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K" 
+              alt="검색 아이콘">
+          </div>
+        </section>
+        <section>
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </section>
+      </div>
+    </header>
+    <div id="app-sticky-nav"
+          style=" position: sticky;
+                  top: 3.625rem;
+                  left: 0;
+                  right: 0;
+                  z-index: 2;
+                  transform: translateY(-100%);"></div>
+    <div id="app-body">
+      <div>
+        <h2 style="text-align: center;">로그인</h2>
+        <div class="card">
+          <form name="joinForm" style= margin:auto>
+            <div>
+              <div style="display:block;">
+                
+                  <legend style="font-size: 1rem;
+                            padding-bottom: .375rem;
+                            font-weight: 500;">이메일</legend>
+                  <input name="email" type="email" placeholder="example@soomgo.com"
+                  style="border-style: solid;
+                          border-color: #fa5963;
+                          padding: .25rem;
+                          border-radius: 4px;
+                          display: block;
+                          width: 100%;
+                          font-size: 1rem;
+                          font-weight: 400;
+                          line-height: 1.5;
+                          color: #323232;
+                          background-color: #fff;
+                          background-clip: padding-box;
+                          border-radius: .25rem;
+                          transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;">
+                  <div style="
+                              width: 100%;
+                              margin-top: .25rem;
+                              font-size: 80%;
+                              color: #fa5963;">이메일 주소를 입력 해 주세요</div>
+                
+              </div>
+              <div style="display:block;">
+                
+                  <legend style="font-size: 1rem;
+                            padding-bottom: .375rem;
+                            font-weight: 500;">비밀번호</legend>
+                  <input name="password" type="email" placeholder="example@soomgo.com"
+                   style="border-style: solid;
+                          border-color: #fa5963;
+                          padding: .25rem;
+                          border-radius: 4px;
+                          display: block;
+                          width: 100%;
+                          font-size: 1rem;
+                          font-weight: 400;
+                          line-height: 1.5;
+                          color: #323232;
+                          background-color: #fff;
+                          background-clip: padding-box;
+                          border-radius: .25rem;
+                          transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;">
+                  <div style="
+                              width: 100%;
+                              margin-top: .25rem;
+                              font-size: 80%;
+                              color: #fa5963;">비밀번호를 입력 해 주세요</div>
+                
+              </div>
+              <br>
+              <button type="button" style="background-color: #00c7ae;
+              width:400px;
+              height:50px;
+              font-size:20px;
+              color:#fff;
+              border-color: #00c7ae;
+              border-radius:10px;
+              border: none;">
+              <span>이메일 로그인</span>
+              </button>
+              <div style=" flex: 0 0 100%;
+                          max-width: 100%;
+                          display: flex"  
+                        >
+                <a href="" style="margin: auto;">비밀번호 찾기</a>
+                <div style="margin: auto 0.75rem;
+                            width: 0.0625rem;
+                            height: 0.75rem;
+                            background-color: #e1e1e1;"></div>
+                <a href="" style="margin: auto;">회원가입</a>
+              </div>
+              <br>
+              <br>
+                <button type="button" style="background-color: #fee500;
+                                              width:400px;
+                                              height:50px;
+                                              font-size:20px;
+                                              color:#fff;
+                                              border-color: #fee500;
+                                              border-radius:10px;
+                                              border: none;">
+                  <img src="https://assets.cdn.soomgo.com/icons/icon-login-kakaotalk-btn.svg">
+                  <span>카카오로 시작</span>
+                </button>
+                <br>
+                <br>
+                <button type="button" style="background-color: #03c75a;
+                                              width:400px;
+                                              height:50px;
+                                              font-size:20px;
+                                              color:#fff;
+                                              border-color: #03c75a;
+                                              border-radius:10px;
+                                              border: none;">
+                  <img src="https://assets.cdn.soomgo.com/icons/icon-login-naver-btn.svg">
+                  <span>네이버로 시작</span>
+                </button>
+                <br>
+                <br>
+                <button type="button" style="background-color: #1876f1;
+                                              width:400px;
+                                              height:50px;
+                                              font-size:20px;
+                                              color:#fff;
+                                              border-color: #1876f1;
+                                              border-radius:10px;
+                                              border: none;">
+                  <img src="https://assets.cdn.soomgo.com/icons/icon-login-facebook-btn.svg">                           
+                  <span>페이스북으로 시작</span>
+                </button>
+              
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  
+</body>
+</html>

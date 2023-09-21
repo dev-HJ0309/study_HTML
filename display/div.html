@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>div</title>
+</head>
+<body>
+  <!-- 
+    두 개의 div를 50%로 이어서 붙이고 싶을 때에는 inline-block으로 display를 변경한 뒤
+    공백없이 딱 붙여서 작성해야 한다.
+   -->
+  <div style="display: inline-block; background: red; width: 50%; text-align: center;">DIV1</div><div style="display: inline-block; background: green; width: 50%; text-align: center;">DIV2</div>
+
+  <div style="float: right; background: orange; width: 50%; text-align: center;">DIV3</div>
+  <div style="float: right; background: olive; width: 50%; text-align: center;">DIV4</div>
+
+   <!-- DIV 5, 6, 7, 8, 총 4개의 div태그를 생성하고, 한 줄로 이어서 나오게 하기  -->
+   <div style="float: left; background: hotpink; width: 25%; text-align: center;">DIV5</div>
+   <div style="float: left; background: blue; width: 25%; text-align: center;">DIV6</div>
+   <div style="float: left; background: green; width: 25%; text-align: center;">DIV7</div>
+   <div style="float: left; background: purple; width: 25%; text-align: center;">DIV8</div>
+
+
+   <div style="float: left; width: 30%;">안냥</div>
+   <div style="float: left; width: 30%;">ㅇㅇ</div>
+   <div style="float: left; width: 30%;">ㅋㅋ</div>
+
+   <section>    
+    <div style="width: 50%; float: left;">
+        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIvPgogICAgICAgIDxwYXRoIGQ9Ik00LjUgNmgxNW0tMTUgNmgxNW0tMTUgNmgxNSIgc3Ryb2tlPSIjMkQyRDJEIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgICA8L2c+Cjwvc3ZnPgo=" 
+        alt="네비게이션 메뉴 아이콘">
+        <a href="/?from=logo">
+        <img src="https://assets.cdn.soomgo.com/icons/icon-navi-logo.svg"
+         alt="숨고 로고">
+        </a>
+    </div>
+    <div style="padding: 0;
+                display: flex;
+                float: left;
+                align-items: center;
+                justify-content: center;
+                flex: 0 0 33.33333%;
+                max-width: 33.33333%;"></div>
+    <div style="width: 50%; float: left;">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIvPgogICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQgNCkiIHN0cm9rZT0iIzJEMkQyRCIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogICAgICAgICAgICA8Y2lyY2xlIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGN4PSI2LjUiIGN5PSI2LjUiIHI9IjYuNSIvPgogICAgICAgICAgICA8cGF0aCBzdHJva2UtbGluZWNhcD0icm91bmQiIGQ9Im0xMS41IDExLjUgNSA1Ii8+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K" 
+        alt="검색 아이콘">
+    </div>
+  </section>
+</body>
+</html>
